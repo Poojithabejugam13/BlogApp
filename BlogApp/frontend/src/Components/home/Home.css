@@ -1,0 +1,32 @@
+.Home{
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+}
+
+.Home::before{
+    background: url('../home/image.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    opacity: 0.5;
+    position:absolute;
+    inset: 0;
+    content: '';
+    /* background-attachment: fixed; */
+}
+
+.Home h1{
+    padding: 20px;
+    isolation: isolate;
+    
+        font-family: 'Fantasy';
+    
+}
+.Home p{
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+    isolation: isolate;
+}

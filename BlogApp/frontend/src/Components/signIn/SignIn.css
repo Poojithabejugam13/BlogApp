@@ -1,0 +1,8 @@
+.Signin-body{
+    background: url("../signIn/image.png") no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.Signin-body .card{
+    background: transparent;
+}

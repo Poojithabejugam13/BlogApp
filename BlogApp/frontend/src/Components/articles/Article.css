@@ -1,0 +1,17 @@
+.Article{
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+}
+.Article::before{
+    background: url('../articles/image.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+    opacity: 0.5;
+    position:absolute;
+    inset: 0;
+    content: '';
+   
+}

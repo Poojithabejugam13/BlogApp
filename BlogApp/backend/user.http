@@ -1,0 +1,41 @@
+//user
+GET http://localhost:4000/user-api/test-user
+###
+POST http://localhost:4000/user-api/user
+Content-Type: application/json
+
+{
+    "userType":"user",
+    "username":"abhi",
+    "password":"abhi",
+    "email":"abhi@gmail.com"
+}
+###
+POST http://localhost:4000/user-api/login
+Content-Type: application/json
+
+{
+    "userType":"user",
+    "username":"abhi",
+    "password":"abhi",
+    "email":"abhi@gmail.com"
+}
+
+###
+
+GET http://localhost:4000/user-api/articles
+
+
+###
+GET http://localhost:4000/admin-api/test-admin
+
+### write comment
+post http://localhost:4000/user-api/comment/1716373522
+Content-Type: application/json
+
+{
+   
+    "username":"ravi",
+    "comment":"usefull content"
+   
+}
